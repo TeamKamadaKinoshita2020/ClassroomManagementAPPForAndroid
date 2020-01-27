@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?><!-- international -->
+<resources>
+
+    <string name="app_name">教室管理用アプリケーション</string>
+    <string name="action_settings">Check your attend log</string>
+
+    <!-- 全アクティビティ共用 -->
+    <string name="login_user">ログインユーザ</string>
+    <string name="administer">管理者</string>
+    <string name="affairs">学務</string>
+    <string name="teacher">教員</string>
+    <string name="logout">ログアウト</string>
+    <string name="confirm_logout">ログアウト確認</string>
+    <string name="confirm_logout_message">ログアウトを行いますか？</string>
+
+    <string name="select_num">座席番号</string>
+    <string name="card_id">カードID</string>
+    <string name="identity_id">識別ID</string>
+    <string name="select_now">選択中</string>>
+    <string name="seat_num">番座席</string>
+    <string name="classroom_num">番教室</string>
+
+    <string name="confirm_layout">レイアウトを確認する</string>
+    <string name="please_read_card">端末で登録したいカードを読み取ってください</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">キャンセル</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="error">エラー</string>
+    <string name="wait">お待ちください</string>
+
+    <string name="success">正常に処理が完了しました</string>
+    <string name="failed">処理に失敗しました</string>
+    <string name="failed_list_make">リストの作成に失敗しました</string>
+
+    <!-- MainActivity用 -->
+    <string name="login">ログイン</string>
+    <string name="failed_login">ログインに失敗しました</string>
+    <string name="permission_error">このユーザにはアプリケーションを扱う権限がありません</string>
+
+    <!-- MenuActivity用 -->
+    <string name="select_process">行いたい処理を選択してください</string>
+    <string name="classroom_management">教室管理</string>
+    <string name="seatcard_management">座席カード管理</string>
+
+    <!-- SelectClassroomActivity用 -->
+    <string name="select_classroom">管理を行う教室を選択してください</string>
+    <string name="go_seat_management">座席管理画面へ</string>
+
+    <!-- ReadCardIdActivity用 -->
+    <string name="select_seat">管理を行う座席を選択してください</string>
+    <string name="no_card">カードが未登録です</string>
+
+    <string name="register_seat_num">番座席のカードID登録</string>
+
+
+    <string name="go_classroom_list">教室一覧画面へ</string>
+    <!-- RegiaterSeatCardActivity用 -->
+    <string name="input_card_info">カード情報の入力・読込を行ってください</string>
+    <string name="display_card_id_here">カードIDの読取</string>
+    <string name="read_card_id">カードIDの読取</string>
+    <!-- Fragment用 -->
+
+
+    <!-- MainActivity.java -->
+    <string name="notscan">Please scan student card.</string>
+    <string name="resetconfirm">Are you sure you want to reset the read student data?</string>
+    <string name="text_alreadyscan">Student ID card has already been scanned.</string>
+    <!-- NFCがOFFです alertDialog  -->
+    <string name="noticeNFCdisable1">NFC is disable</string>
+    <string name="noticeNFCdisable2">Please turn on the NFC by Settings.</string>
+    <!-- 学生証読み取り結果 -->
+    <string name="error_unknown">ERROR : An unknown error has occurred.</string>
+    <string name="error_nonfelica">ERROR : Not a FeliCa card.</string>
+    <string name="error_length">ERROR : The size of the system code list is wrong.</string>
+    <string name="error_auth">ERROR : Authentication is required.</string>
+    <string name="error_unsupport">ERROR : Character code has not been corresponding.</string>
+
+    <!-- SendData.java -->
+    <string name="selectClass">Please select the class to register your attendance.</string>
+    <string name="errorFailedconnect">Failed to Connect to teacher\'s devices.</string>
+    <string name="scanBeacon">Detecting the BLE beacon</string>
+
+    <!--  SocketSend.java -->
+    <string name="sendData">Sending the attendance registration data</string>
+    <!-- 登録結果 -->
+    <string name="failedRegist">Failed to attend registration.</string>
+    <string name="noResponse">Registration of attendance was closed.</string>
+    <string name="connectException">Failed to Connect to teacher\'s devices.</string>
+    <string name="unresolvedExc">Failed to resolve DNS.</string>
+    <string name="dataError">Name or student ID number can\'t be read.</string>
+    <string name="successRegist">Succeeded in attendance registration.</string>
+    <string name="late">You are late</string>
+    <string name="already">You have already attended.</string>
+    <string name="exception">An exception occurred.</string>
+
+    <!-- ScanBLEBeacon.java -->
+    <string name="startScan">Start scanning BLE Beacon.</string>
+
+    <!-- activity_main.xml -->
+    <string name="regist">Register Attendance</string>
+    <string name="reset">scan reset</string>
+
+    <!-- studentListActivity.java -->
+    <string name="recordcheck">Record Check</string>
+
+    <string name="action_attendlist">登録した出席情報を確認する</string>
+    <string name="button_register">出席登録</string>
+
+    <string name="button_reset">学生証スキャンをやり直す</string>
+    <string name="text_wait">しばらくお待ち下さい</string>
+    <string name="text_scaniccard">学生証をスキャンしてください</string>
+    <string name="text_scanbeacon">BLE Beaconの電波を受信しています</string>
+    <string name="text_beaconnotfound">BLE Beaconが見つかりません。</string>
+    <string name="text_canceledscan">スキャンを中止しました</string>
+    <string name="text_getclass">授業情報を取得しています</string>
+    <string name="text_failedtogetclass">授業情報の取得に失敗しました</string>
+    <string name="text_failedtoconnect">サーバへの接続に失敗しました。</string>
+    <string name="text_confirmattend">以下の授業に出席登録を行います : </string>
+    <string name="text_confirm">確認</string>
+    <string name="text_sendingattend">出席登録を行っています</string>
+    <string name="text_sendattendance">データを送信しています</string>
+    <string name="text_succeed">出席登録に成功しました。</string>
+    <string name="text_endattendance">出席登録の受付が終了しています</string>
+    <string name="text_failed">出席登録に失敗しました。</string>
+    <string name="text_cancel">キャンセル</string>
+    <string name="text_error">エラー</string>
+    <string name="label_settings">設定</string>
+
+    <string name="label_mid"></string> <!-- わざと空白 -->
+
+    <string name="text_class">科目名</string>
+    <string name="button_test">テスト</string>
+
+
+    <!-- 追加分 -->
+    <string name="text_selectlecture">出席する講義を選択してください</string>>
+    <string name="text_scanseatcard">座席のカードを読み取ってください</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>>
+
+
+</resources>
