@@ -59,9 +59,7 @@ public class WebConnection {
             }
             Log.d("a","分岐終了"+this.url);
             Request request = new Request.Builder()
-                    .url("http://13.114.37.66/attendancesystem/android/"+url) // aws
-                    //.url("http://157.80.87.23/attendancesystem/android/"+url) //研究室
-                    //.url("http://192.168.11.5/attendancesystem/android/"+url) //自宅？
+                    .url("hoge"+url) //　 hoge = "http://IP address/attendancesystem/android/"
                     .post(formBody)
                     .build();
 
